@@ -1,21 +1,30 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
 }
 
 header {
-    background: #0078D7;
+    background: #0078d7;
     color: white;
-    padding: 10px 0;
     text-align: center;
+    padding: 20px 0;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 600;
 }
 
 nav a {
     color: white;
-    margin: 0 10px;
     text-decoration: none;
+    margin: 0 15px;
+    font-weight: 400;
 }
 
 nav a:hover {
@@ -23,17 +32,33 @@ nav a:hover {
 }
 
 main {
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
+    text-align: center;
 }
 
-img {
+main img {
     max-width: 100%;
     height: auto;
+    margin-top: 15px;
+    border: 2px solid #0078d7;
 }
 
 footer {
     text-align: center;
+    background: #f4f4f9;
+    color: #555;
+    padding: 10px 0;
     margin-top: 20px;
     font-size: 0.9em;
-    color: gray;
+}
+
+footer a {
+    color: #0078d7;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
